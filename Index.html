@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+			<title>Project 5</title> 
+      <link rel="stylesheet" type="text/css" href="style.css" />
+			<link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,900' rel='stylesheet' type='text/css'> 
+	</head>
+
+	<body background="background.png">
+
+<div class="IntroVideo" style="text-align:center">
+  <video  width="300" autoplay= true loop="loop">
+    <source src="MixedReality.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<div class="Introtext">
+  <p>What comes into your mind when you hear <u> MIXED REALITY?</u> </p>
+
+</div>
+
+
+<div class="video1" style="text-align:center" >
+
+  <p>A <u>SMART BUTLER</u> that helps you control devices?</p>
+  <button onclick="playPause1()">Play/Pause</button>
+  <button onclick="makeBig1()">Big</button>
+  <button onclick="makeSmall1()">Small</button>
+  <button onclick="makeNormal1()">Normal</button>
+  <br><br>
+  <video id="video1" width="600">
+    <source src="ARSound.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+</div>
+
+<script>
+var myVideo1 = document.getElementById("video1");
+
+function playPause1() {
+    if (myVideo1.paused)
+        myVideo1.play();
+    else
+        myVideo1.pause();
+}
+
+function makeBig1() {
+    myVideo1.width = 800;
+}
+
+function makeSmall1() {
+    myVideo1.width = 400;
+}
+
+function makeNormal1() {
+    myVideo1.width = 600;
+}
+</script>
+
+
+<div class="video2" style="text-align:center">
+
+  <p>How about <u>GAMIFY</u> your daily life? </p>
+  <button onclick="playPause2()">Play/Pause</button>
+  <button onclick="makeBig2()">Big</button>
+  <button onclick="makeSmall2()">Small</button>
+  <button onclick="makeNormal2()">Normal</button>
+  <br><br>
+  <video id="video2" width="600">
+    <source src="Mission.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<script>
+var myVideo2 = document.getElementById("video2");
+
+function playPause2() {
+    if (myVideo2.paused)
+        myVideo2.play();
+    else
+        myVideo2.pause();
+}
+
+function makeBig2() {
+    myVideo2.width = 800;
+}
+
+function makeSmall2() {
+    myVideo2.width =400;
+}
+
+function makeNormal2() {
+    myVideo2.width = 600;
+}
+</script>
+
+<div class="video3" style="text-align:center">
+  <p><u>FOLLOW</u> our page to check out possabilities of MIXED REALITY</p>
+  <button onclick="playPause3()">Play/Pause</button>
+  <button onclick="makeBig3()">Big</button>
+  <button onclick="makeSmall3()">Small</button>
+  <button onclick="makeNormal3()">Normal</button>
+  <br><br>
+  <video id="video3" width="600">
+    <source src="SkateBoard.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  
+
+</div>
+
+<script>
+var myVideo3 = document.getElementById("video3");
+
+function playPause3() {
+    if (myVideo3.paused)
+        myVideo3.play();
+    else
+        myVideo3.pause();
+}
+
+function makeBig3() {
+    myVideo3.width = 800;
+}
+
+function makeSmall3() {
+    myVideo3.width =400;
+}
+
+function makeNormal3() {
+    myVideo3.width = 600;
+}
+</script>
+
+<div class="bottombar">
+<img src="socialmedia.jpg" alt="social media image">
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="scripts.js"></script>
+
+	</body>
+
+
+</html>
